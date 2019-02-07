@@ -27,6 +27,8 @@
 /* Begin PBXFileReference section */
 		9938DE7A2209DDFE00007AB6 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		9938DE7B2209DDFE00007AB6 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		9975FF3F220C853D001CC919 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		9975FF40220C85AA001CC919 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		99D64C0921FF5C4F004B3FBC /* DataStructured */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructured; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D64C1821FF5D72004B3FBC /* Node 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Node 1.png"; sourceTree = "<group>"; };
 		99D64C1921FF5D77004B3FBC /* Node 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Node 2.png"; sourceTree = "<group>"; };
@@ -56,6 +58,23 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		9975FF39220C83F9001CC919 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				99D64C1F21FF60EE004B3FBC /* Node.hpp */,
+				9975FF40220C85AA001CC919 /* LinearNode.hpp */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		9975FF3A220C84EA001CC919 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				9975FF3F220C853D001CC919 /* List.hpp */,
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
 		99D64C0021FF5C4F004B3FBC = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +94,8 @@
 		99D64C0B21FF5C4F004B3FBC /* DataStructured */ = {
 			isa = PBXGroup;
 			children = (
+				9975FF3A220C84EA001CC919 /* Linear */,
+				9975FF39220C83F9001CC919 /* Nodes */,
 				99D64C1621FF5C9E004B3FBC /* Resources */,
 				99D64C1521FF5C91004B3FBC /* Diagrams */,
 				99D64C1421FF5C84004B3FBC /* Controller */,
@@ -86,7 +107,6 @@
 		99D64C1321FF5C78004B3FBC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				99D64C1F21FF60EE004B3FBC /* Node.hpp */,
 			);
 			path = Model;
 			sourceTree = "<group>";
