@@ -12,7 +12,7 @@ using namespace std;
 #define LinkedList_hpp
 
 
-#endif /* LinkedList_h */
+
 
 template<class Type>
 class LinkedList : public List<Type>
@@ -105,6 +105,8 @@ Type LinkedList<Type> :: getFromIndex(int index)
     data = current->getData();
     return data;
 }
+
+
 Type LinkedLIst<Type> :: remove(int index)
 {
     assert(index >= 0 && index < this->size);
@@ -158,3 +160,24 @@ int LinkedList<Type> :: getSize() const
 {
     return this -> size;
 }
+
+template <class Type>
+bool LinkedList<Type> :: contains(Type thingsToFind)
+{
+    bool exists = false;
+    
+    LinearNode<Type> * searchPointer = front;
+    
+    for(int index - 0; index < getSize; index++)
+    {
+        if(searchPointer->getData() == thingsToFind)
+        {
+            return true;
+        }
+        searchPointer = searchPointer-> getNextNode();
+    }
+    return exists;
+}
+
+
+#endif /* LinkedList_h */
