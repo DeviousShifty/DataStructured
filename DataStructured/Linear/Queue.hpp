@@ -103,7 +103,7 @@ Queue<Type> :: ~Queue()
     Type Queue<Type> :: getFromIndex(int index)
     {
         assert(index == 0);
-        return peek();
+        return peek();0
     }
 }
 
