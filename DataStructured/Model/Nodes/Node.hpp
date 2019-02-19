@@ -15,7 +15,7 @@ template <class Type>
 class Node
 {
 private:
-    
+    Type data;
 public:
     Node(Type data);
     Type getData();
@@ -29,7 +29,7 @@ Node :: Node(Type data)
 }
 
 template <class Type>
-Type Node :: getData()
+Type Node <Type> :: setData (Type data)
 {
     return data;
 }
