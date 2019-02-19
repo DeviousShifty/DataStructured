@@ -9,6 +9,7 @@
 #ifndef Stack_h
 #define Stack_h
 #include "LinkedList.hpp"
+#include <iostream>
 
 virtual void add(Type item);
 virtual void addAtIndex(int index, Type item);

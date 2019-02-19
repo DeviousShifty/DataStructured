@@ -7,51 +7,94 @@
 //
 #include "List.hpp"
 
-using namespace std;
+
 #ifndef LinkedList_hpp
 #define LinkedList_hpp
 
+using namespace std;
 
+template <class Type>
 
-
-template<class Type>
 class LinkedList : public List<Type>
 
+{
+    
 protected:
-LinearNode<Type> * front;
-LinearNode<Type> * end;
-
+    
+    LinearNode<Type>; * front;
+    
+    LinearNode<Type>; * end;
+    
+    
+    
 public:
-LinkedList();//constructors
-//Destructor
-virtual ~LinkedList();
-//Helper method
-int getSize() const;
-LinearNOde<Type> * getFront();
-LinearNOde<Type> * getEnd();
+    
+    LinkedList();
+    
+    virtual ~LinkedList();
+    
+    int getSize() const;
+    
+    LinearNode<Type>; * getFront();
+    
+    LinearNode<Type>; * getEnd();
+    
+    void add(Type item);
+    
+    void addAtIndex(int index, Type item);
+    
+    Type getFromIndex(int index);
+    
+    Type remove(int index);
+    
+    virtual void add(Type item);
+    
+    virtual void addAtIndex(int index, Type item);
+    
+    virtual Type getFromIndex(int index);
+    
+    virtual Type remove(int index);
+    
+    
+    
+};
 
-//Structure Methods
-void add(Type item);
-void addAtIndex(int index, Type item);
-Type getFromIndex(int index);
-Type remove(int index);
+
 
 LinkedList<Type> :: LinkedList()
+
 {
+    
     this->front = nullptr;
+    
     this->end = nullptr;
-    this->size=0;
+    
+    this->size = 0;
+    
 }
+
+
+
 LinkedList<Type> :: ~LinkedList()
+
 {
+    
     LinearNode<Type> * destroyStructure = front;
+    
     while (front != nullptr)
+        
     {
+        
         front = destroyStructure->getNextNode();
+        
         delete destroyStructure;
+        
         destroyStructure = front;
+        
     }
+    
 }
+//
 void LinkedList<Type> :: add(Type item)
 {
     LInearNode<Type> * newData = new LinearNode<Type>(item);

@@ -30,7 +30,7 @@ public:
  */
 
 template <class Type>
-LinearNode<Type> :: LinearNode(Type data): Node<Type>(d)
+LinearNode<Type> :: LinearNode(Type data): Node<Type>()
 {
     this->next = nullptr;
 }
@@ -38,8 +38,10 @@ LinearNode<Type> :: LinearNode(Type data): Node<Type>(d)
 /**
  This constructor is used to create a reference to a instance with data and a known link.
  */
+
 template <class Type>
-LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
+
+LinearNode<Type> ::  LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
 {
     this->next = next;
 }
@@ -56,3 +58,4 @@ LinearNode<Type>*LinearNode<Type>::getNextNode()
 }
 
 #endif /* LinearNode_h */
+

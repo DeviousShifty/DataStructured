@@ -23,6 +23,11 @@ public:
 };
 //Template definitions
 template <class Type>
+Node<Type> :: Node()
+{
+    
+}
+template <class Type>
 Node :: Node(Type data)
 {
     this -> data = data;

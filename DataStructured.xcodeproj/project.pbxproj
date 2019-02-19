@@ -139,8 +139,8 @@
 		99D64C1321FF5C78004B3FBC /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9975FF39220C83F9001CC919 /* Nodes */,
 				9975FF3A220C84EA001CC919 /* Linear */,
+				9975FF39220C83F9001CC919 /* Nodes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
