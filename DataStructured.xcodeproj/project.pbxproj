@@ -37,6 +37,7 @@
 		9975FF3F220C853D001CC919 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		9975FF40220C85AA001CC919 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		9975FF41220C8854001CC919 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		997F733322302E98001E19AB /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		99A156DC221EF1A6007A0366 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		99A156DD221EF824007A0366 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		99AC4EF822147787009AEAB0 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
@@ -103,6 +104,14 @@
 			path = Linear;
 			sourceTree = "<group>";
 		};
+		997F7334223030F8001E19AB /* Non-Linear */ = {
+			isa = PBXGroup;
+			children = (
+				997F733322302E98001E19AB /* Graph.hpp */,
+			);
+			path = "Non-Linear";
+			sourceTree = "<group>";
+		};
 		99AC4F0322147E48009AEAB0 /* Testers */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +152,7 @@
 		99D64C1321FF5C78004B3FBC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				997F7334223030F8001E19AB /* Non-Linear */,
 				9975FF3A220C84EA001CC919 /* Linear */,
 				9975FF39220C83F9001CC919 /* Nodes */,
 			);
