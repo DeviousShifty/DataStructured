@@ -86,7 +86,7 @@ void Graph<Type> :: addVertex(const Type& value)
     graphData[newVertexNumber] = value;
 }
 template <class Type>
-void Graph<Type> :: addEdge(int source, int target)
+void Graph<Type> :: addEdge(int source, int target) //has directed connection
 {
     assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
     adjacencyMatrix[source][target] = true;
