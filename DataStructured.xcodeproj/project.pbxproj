@@ -14,6 +14,7 @@
 		99AC4F0622147E61009AEAB0 /* LinearTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99AC4F0422147E61009AEAB0 /* LinearTester.cpp */; };
 		99D64C1C21FF5DA0004B3FBC /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99D64C1A21FF5DA0004B3FBC /* Controller.cpp */; };
 		99D64C1E21FF5EAB004B3FBC /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99D64C1D21FF5EAB004B3FBC /* Runner.cpp */; };
+		99EC43A6223FDAED002BCC41 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 99EC43A4223FDAED002BCC41 /* GraphTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,8 @@
 		99D64C1B21FF5DA0004B3FBC /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		99D64C1D21FF5EAB004B3FBC /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		99D64C1F21FF60EE004B3FBC /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		99EC43A4223FDAED002BCC41 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
+		99EC43A5223FDAED002BCC41 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				99AC4F0422147E61009AEAB0 /* LinearTester.cpp */,
 				99AC4F0522147E61009AEAB0 /* LinearTester.hpp */,
+				99EC43A4223FDAED002BCC41 /* GraphTester.cpp */,
+				99EC43A5223FDAED002BCC41 /* GraphTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99AC4EFC22147927009AEAB0 /* Music.cpp in Sources */,
+				99EC43A6223FDAED002BCC41 /* GraphTester.cpp in Sources */,
 				9938DE7C2209DDFE00007AB6 /* Timer.cpp in Sources */,
 				99AC4F012214798B009AEAB0 /* CrimeData.cpp in Sources */,
 				99D64C1C21FF5DA0004B3FBC /* Controller.cpp in Sources */,
