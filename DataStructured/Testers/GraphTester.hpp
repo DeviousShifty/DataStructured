@@ -10,7 +10,7 @@
 #define GraphTester_hpp
 
 #include <iostream>
-#include "../Model/NonLinear/Graph.hpp"
+#include "../Model/Non-Linear/Graph.hpp"
 
 class GraphTester
 {
@@ -22,6 +22,7 @@ private:
     
 public:
     void testGraphs();
+    
 };
 
 #endif /* GraphTester_hpp */

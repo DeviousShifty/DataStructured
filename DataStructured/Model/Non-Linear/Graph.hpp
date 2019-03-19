@@ -14,7 +14,7 @@
 
 using namespace std;
 template <class Type>
-class Graph
+class Graph;
 
 private:
 static const int MAXIMUM = 50;

@@ -40,7 +40,7 @@ LinearNode<Type> :: LinearNode(Type data): Node<Type>()
  */
 
 template <class Type>
-
+{
 LinearNode<Type> ::  LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(data)
 {
     
