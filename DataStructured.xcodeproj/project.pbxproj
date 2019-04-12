@@ -34,6 +34,7 @@
 		9905C8D92211D56900C8862D /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		9905C8DA2211DA7200C8862D /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		990B2BE12260DD1400660E4D /* BinaryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeNode.hpp; sourceTree = "<group>"; };
+		990B2BE22260E2F300660E4D /* Tree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Tree.hpp; sourceTree = "<group>"; };
 		9938DE7A2209DDFE00007AB6 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		9938DE7B2209DDFE00007AB6 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		9975FF3F220C853D001CC919 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 				9905C8D92211D56900C8862D /* Stack.hpp */,
 				9905C8DA2211DA7200C8862D /* Queue.hpp */,
 				99A156DD221EF824007A0366 /* CircularList.hpp */,
+				990B2BE22260E2F300660E4D /* Tree.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
