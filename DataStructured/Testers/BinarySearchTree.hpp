@@ -102,4 +102,50 @@ void BinarySearchTree<Type> :: remove(Type item)
 {
     
 }
+template <class Type>
+void BinarySearchTree<Type> :: insert(Type itemToInsert)
+{
+    BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(itemToInsert);
+    BinaryTreeNode<Type> * previous = nullptr;
+    BinaryTreeNode<Type> * current = this ->root;
+    
+    if(current == nullptr)
+    {
+        this-> root = insertMe;
+    }
+    else
+    {
+        while(current != nullptr)
+        {
+            previous = current;
+            if(itemToInsert < current->getData())
+            {
+                current = current->getLeftChild();
+            }
+            else if(itemToInsert > current->getData())
+            {
+                current = current->getRightChild();
+                
+            }
+            else
+            {
+                cerr << "Item exists already - Exiting insert" << endl;
+                delete insertMe;
+                return;
+            }
+        }
+    }
+    if (previous->getData() > itemToInsert)
+    {
+        previous->setLeftChild(insertMe);
+    }
+    else
+    {
+        previous-> setRightChild(insertMe);
+        
+    }
+    insertMe->setRootNode(previous);
+}
+
+}
 #endif /* BinarySearchTree_h */
